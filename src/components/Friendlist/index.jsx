@@ -1,25 +1,25 @@
-import './friendlist.css';
+import css from './friendlist.module.css';
 
 const Friendlist = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <ul className={css.friend__list}>
       {friends.map(friend => {
         const statusColor = friend.isOnline ? '#008000' : '#ff0000';
         return (
-          <li className="friend__item" key={friend.id}>
+          <li className={css.friend__item} key={friend.id}>
             <span
               style={{
                 backgroundColor: statusColor,
               }}
-              className="friend__status"
+              className={css.friend__status}
             ></span>
             <img
               src={friend.avatar}
               alt="User Avatar"
-              className="friend__avatar"
+              className={css.friend__avatar}
               width={48}
             />
-            <p className="friend__name name">{friend.name}</p>
+            <p className={css.friend__name}>{friend.name}</p>
           </li>
         );
       })}

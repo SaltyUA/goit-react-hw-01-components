@@ -1,7 +1,3 @@
-body {
-  background-color: darkgray;
-}
-
 .profile {
   width: 300px;
   margin: 0 auto;
@@ -15,12 +11,6 @@ body {
   background-color: aliceblue;
   font-weight: 500;
   overflow: hidden;
-}
-
-.tag,
-.location {
-  color: grey;
-  opacity: 0.8;
 }
 
 .description {
@@ -38,6 +28,12 @@ body {
 .name {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.tag,
+.location {
+  color: grey;
+  opacity: 0.8;
 }
 
 .stats {

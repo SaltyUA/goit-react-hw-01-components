@@ -1,4 +1,4 @@
-.friend-list {
+.friend__list {
   width: 300px;
   margin: 0 auto;
   margin-top: 50px;
@@ -21,4 +21,9 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+.friend__name {
+  font-size: 1.2rem;
+  font-weight: 600;
 }

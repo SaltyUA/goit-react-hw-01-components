@@ -2,7 +2,6 @@
   background-color: #fff;
   margin: 0 auto;
   margin-top: 50px;
-  padding-top: 10px;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -11,16 +10,17 @@
 }
 
 .title {
+  padding-top: 10px;
   text-align: center;
   margin-bottom: 10px;
 }
-.stat-list {
+.stat__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.stat-list > li {
+.stat__list > li {
   color: #fff;
   font-weight: 500;
   display: flex;
