@@ -1,5 +1,5 @@
 import css from './statistic.module.css';
-import { randomHexColor } from 'js/randomHex';
+import { getRandomHexColor } from 'js/randomHex';
 
 const Statistics = ({ title, data }) => {
   const itemWidth = `${100 / data.length}%`;
@@ -12,7 +12,7 @@ const Statistics = ({ title, data }) => {
             <li
               style={{
                 width: itemWidth,
-                backgroundColor: randomHexColor(),
+                backgroundColor: getRandomHexColor(),
               }}
               className={css.item}
               key={data.id}
