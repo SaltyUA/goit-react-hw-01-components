@@ -1,0 +1,30 @@
+.statistics {
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.stat-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-list > li {
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  flex-direction: column;
+}
