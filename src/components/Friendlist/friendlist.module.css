@@ -16,11 +16,21 @@
   border-radius: 10px;
 }
 
-.friend__status {
+.status {
   display: block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: #008000;
+}
+
+.offline {
+  composes: status;
+  background-color: #ff0000;
 }
 
 .friend__name {
